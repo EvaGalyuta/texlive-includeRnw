@@ -18,7 +18,9 @@ This package is for including .Rnw (knitr/sweave)-files inside .tex-files.
 #-----------------------------------------------------------------------
 %files
 %{_texmfdistdir}/tex/latex/includernw
-%doc %{_texmfdistdir}/doc/latex/includernw
+%doc %{_texmfdistdir}/doc/latex/includernw/includeRnw-doc.pdf
+%doc %{_texmfdistdir}/doc/latex/includernw/includeRnw-doc.tex
+%doc %{_texmfdistdir}/doc/latex/includernw/README.txt
 
 #-----------------------------------------------------------------------
 %prep
