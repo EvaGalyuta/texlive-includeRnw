@@ -1,7 +1,7 @@
-Name:		includeRnw
+Name:		texlive-includeRnw
 Version:	0.1.0
 Release:	1
-Summary:	This package is for including .Rnw (knitr/sweave)-files inside .tex-files. 
+Summary:	This package is for including .Rnw (knitr/sweave)-files inside .tex-files 
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/includernw
 License:	The LATEX Project Public License 1.3c
@@ -17,10 +17,8 @@ This package is for including .Rnw (knitr/sweave)-files inside .tex-files.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/includernw
-%doc %{_texmfdistdir}/doc/latex/includernw/includeRnw-doc.pdf
-%doc %{_texmfdistdir}/doc/latex/includernw/includeRnw-doc.tex
-%doc %{_texmfdistdir}/doc/latex/includernw/README.txt
+%{_texmfdistdir}/tex/*
+%doc %{_texmfdistdir}/doc/*
 
 #-----------------------------------------------------------------------
 %prep
